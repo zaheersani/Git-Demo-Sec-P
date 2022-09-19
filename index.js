@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/todos', (req, res) => {
-    res.send('A list of todo items')
+    res.send('A list of todo items will be returned')
 })
 
 app.post('/', (req, res) => {
