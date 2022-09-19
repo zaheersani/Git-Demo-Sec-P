@@ -6,6 +6,7 @@ const router = express.Router();
 const todos = [
     {
         item: 'Push the code',
+        assignTo: 45
     }
 ]
 
