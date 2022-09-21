@@ -15,9 +15,9 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-    const todoItem = req.body;
+    const user = req.body;
     console.log(req.body);
-    res.send(`Item added into the DB`)
+    res.send(`added into the DB`)
 })
 
 export default router;
